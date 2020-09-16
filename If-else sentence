@@ -1,0 +1,35 @@
+print("What is your name?")
+name = input()
+print(f"Welcome {name}")
+print(f"Please {name}, Could you tell me what was your grade in Maths?")
+grade= float(input("Write it with at least 2 decimals"))
+if grade>95: 
+    print("Excellent! Your score: AU")
+elif grade>90<94.99:
+        print("Well done! Your score: DE")
+elif grade>70<79.99:
+            print("Try to do it better. Your score: SA")
+else:
+                print(f"NA, see you in extra {name}")
+
+print(f"Please {name}, Could you tell me what was your grade in Statistics?")
+grade= float(input("Write it with at least 2 decimals"))
+if grade>95: 
+    print("Excellent! Your score: AU")
+elif grade>90<94.99:
+        print("Well done! Your score: DE")
+elif grade>70<79.99:
+            print("Try to do it better. Your score: SA")
+else:
+                print(f"NA, see you in extra {name}")
+
+print(f"Please {name}, Could you tell me what was your grade in Electronics?")
+grade= float(input("Write it with at least 2 decimals"))
+if grade>95: 
+    print("Excellent! Your score: AU")
+elif grade>90<94.99:
+        print("Well done! Your score: DE")
+elif grade>70<79.99:
+            print("Try to do it better. Your score: SA")
+else:
+                print(f"NA, see you in extra {name}")
