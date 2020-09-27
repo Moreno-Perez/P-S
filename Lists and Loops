@@ -1,0 +1,27 @@
+i= 0
+x= []
+y= []
+n= []
+k= []
+while i < 1:
+    print(k)
+    print(x)
+    print("Write 0 to stop")
+    number= int(input("Give me a number: "))
+    x.append(number)
+    med= (sum(x))/len((x))
+    for j in x:
+        j -= med
+        y.append(j)
+    for h in y:
+        h*=h
+        n.append(h)
+    t=sum(n)
+    c=t/len(x)
+    k=c**.5
+    if number == 0:
+        i += 1
+print("This is your list")
+print(x)
+print("This is your desviation")
+print(k)
